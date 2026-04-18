@@ -194,7 +194,11 @@ function closeModal() {
 function setupReveal() {
   const sections = document.querySelectorAll(".reveal");
 
-  if (!sections.length || typeof IntersectionObserver === "undefined") {
+  if (
+    !sections.length ||
+    typeof IntersectionObserver === "undefined" ||
+    window.matchMedia("(max-width: 720px)").matches
+  ) {
     sections.forEach((section) => section.classList.add("is-visible"));
     return;
   }
@@ -208,7 +212,10 @@ function setupReveal() {
         }
       });
     },
-    { threshold: 0.18 }
+    {
+      threshold: 0.08,
+      rootMargin: "0px 0px -8% 0px"
+    }
   );
 
   sections.forEach((section) => observer.observe(section));
