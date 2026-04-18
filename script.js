@@ -52,61 +52,89 @@ const fitPoints = [
   }
 ];
 
+const featuredCertificate = {
+  title: "Diplomado en Psicoterapia Analítica Funcional (FAP)",
+  subtitle: "Formación destacada en terapias contextuales",
+  thumb: "Constancias German/thumbs/FAP_SEIG011115H-page-00001.jpg",
+  display: "Constancias German/display/FAP_SEIG011115H-page-00001.jpg"
+};
+
 const certificateFiles = [
   {
+    title: "Terapia cognitivo conductual",
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-de-Terapia-Cognitivo-Conductual_Curso-Virtual-de-Terapia-Cognitivo--page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-de-Terapia-Cognitivo-Conductual_Curso-Virtual-de-Terapia-Cognitivo--page-00001.jpg"
+  },
+  {
+    title: "Aplicación e interpretación de la prueba POSIT",
+    thumb: "igual estas/thumbs/Constancias_ Germán-page-00001.jpg",
+    display: "igual estas/display/Constancias_ Germán-page-00001.jpg"
+  },
+  {
+    title: "Manejo de ansiedad: propuesta de intervención psicosocial",
+    thumb: "igual estas/thumbs/Constancias_ Germán-page-00002.jpg",
+    display: "igual estas/display/Constancias_ Germán-page-00002.jpg"
+  },
+  {
+    title: "Habilidades mentales y reconocimiento de emociones",
+    thumb: "igual estas/thumbs/Constancias_ Germán-page-00003.jpg",
+    display: "igual estas/display/Constancias_ Germán-page-00003.jpg"
+  },
+  {
+    title: "Violencia en la comunidad y suicidio",
+    thumb: "igual estas/thumbs/Constancias_ Germán-page-00004.jpg",
+    display: "igual estas/display/Constancias_ Germán-page-00004.jpg"
+  },
+  {
     title: "Herramientas para el control de la ansiedad",
-    file: "Constancia-Curso-Virtual-de-Herramientas-para-el-Control-de-la-Ansiedad_Curso-Virtual-de-Her-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-de-Herramientas-para-el-Control-de-la-Ansiedad_Curso-Virtual-de-Her-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-de-Herramientas-para-el-Control-de-la-Ansiedad_Curso-Virtual-de-Her-page-00001.jpg"
   },
   {
     title: "Primeros auxilios psicológicos",
-    file: "Constancia-Curso-Virtual-de-Primeros-Auxilios-Psicologicos_Curso-Virtual-de-Primeros-Auxilio-page-00001.jpg"
-  },
-  {
-    title: "Terapia cognitivo conductual",
-    file: "Constancia-Curso-Virtual-de-Terapia-Cognitivo-Conductual_Curso-Virtual-de-Terapia-Cognitivo--page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-de-Primeros-Auxilios-Psicologicos_Curso-Virtual-de-Primeros-Auxilio-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-de-Primeros-Auxilios-Psicologicos_Curso-Virtual-de-Primeros-Auxilio-page-00001.jpg"
   },
   {
     title: "Posvención del suicidio",
-    file: "Constancia-Curso-Virtual-Posvencion-del-Suicidio_Curso-Virtual-Posvencion-del-Suicidio_Germa-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Posvencion-del-Suicidio_Curso-Virtual-Posvencion-del-Suicidio_Germa-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Posvencion-del-Suicidio_Curso-Virtual-Posvencion-del-Suicidio_Germa-page-00001.jpg"
   },
   {
     title: "Prevención de autolesiones",
-    file: "Constancia-Curso-Virtual-Prevencion-de-Autolesiones_Curso-Virtual-Prevencion-de-Autolesiones-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Prevencion-de-Autolesiones_Curso-Virtual-Prevencion-de-Autolesiones-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Prevencion-de-Autolesiones_Curso-Virtual-Prevencion-de-Autolesiones-page-00001.jpg"
   },
   {
     title: "Prevención del suicidio",
-    file: "Constancia-Curso-Virtual-Prevencion-del-Suicidio_Curso-Virtual-Prevencion-del-Suicidio_Germa-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Prevencion-del-Suicidio_Curso-Virtual-Prevencion-del-Suicidio_Germa-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Prevencion-del-Suicidio_Curso-Virtual-Prevencion-del-Suicidio_Germa-page-00001.jpg"
   },
   {
     title: "Psicología de las adicciones",
-    file: "Constancia-Curso-Virtual-Psicologia-de-las-Adicciones_Curso-Virtual-Psicologia-de-las-Adicci-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Psicologia-de-las-Adicciones_Curso-Virtual-Psicologia-de-las-Adicci-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Psicologia-de-las-Adicciones_Curso-Virtual-Psicologia-de-las-Adicci-page-00001.jpg"
   },
   {
     title: "Trastornos de la conducta alimentaria",
-    file: "Constancia-Curso-Virtual-Trastornos-de-la-Conducta-Alimentaria_Curso-Virtual-Trastornos-de-l-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Trastornos-de-la-Conducta-Alimentaria_Curso-Virtual-Trastornos-de-l-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Trastornos-de-la-Conducta-Alimentaria_Curso-Virtual-Trastornos-de-l-page-00001.jpg"
   },
   {
     title: "Violencia de género",
-    file: "Constancia-Curso-Virtual-Violencia-de-Genero-Que-Es-y-Como-Prevenirla_Curso-Virtual-Violenci-page-00001.jpg"
+    thumb: "Constancias German/thumbs/Constancia-Curso-Virtual-Violencia-de-Genero-Que-Es-y-Como-Prevenirla_Curso-Virtual-Violenci-page-00001.jpg",
+    display: "Constancias German/display/Constancia-Curso-Virtual-Violencia-de-Genero-Que-Es-y-Como-Prevenirla_Curso-Virtual-Violenci-page-00001.jpg"
   },
   {
     title: "Autocuidado para profesionales de la salud",
-    file: "CURSO-~1-page-00001.jpg"
-  },
-  {
-    title: "Formación en FAP",
-    file: "FAP_SEIG011115H-page-00001.jpg"
+    thumb: "Constancias German/thumbs/CURSO-~1-page-00001.jpg",
+    display: "Constancias German/display/CURSO-~1-page-00001.jpg"
   }
 ];
 
-const certificates = certificateFiles.map((item) => ({
-  title: item.title,
-  thumb: `Constancias German/thumbs/${item.file}`,
-  display: `Constancias German/display/${item.file}`
-}));
-
 const focusGrid = document.querySelector("#focus-grid");
 const fitGrid = document.querySelector("#fit-grid");
+const featuredCertificateContainer = document.querySelector("#featured-certificate");
 const certificateGallery = document.querySelector("#certificate-gallery");
 const imageModal = document.querySelector("#image-modal");
 const imageModalImg = document.querySelector("#image-modal-img");
@@ -156,6 +184,31 @@ function createCertificateCard(item) {
   button.addEventListener("click", () => openModal(item));
 
   return button;
+}
+
+function renderFeaturedCertificate(item, container) {
+  if (!container || !item) {
+    return;
+  }
+
+  const button = document.createElement("button");
+  button.className = "certificate-feature-card";
+  button.type = "button";
+  button.setAttribute("aria-label", `Ver diplomado: ${item.title}`);
+  button.innerHTML = `
+    <div class="certificate-feature-media">
+      <img src="${encodeURI(item.thumb)}" alt="${item.title}" loading="lazy" decoding="async">
+    </div>
+    <div class="certificate-feature-copy">
+      <span class="certificate-feature-tag">Diplomado destacado</span>
+      <strong>${item.title}</strong>
+      <p>${item.subtitle}</p>
+      <span>Toque para ampliar</span>
+    </div>
+  `;
+
+  button.addEventListener("click", () => openModal(item));
+  container.appendChild(button);
 }
 
 function renderCards(items, container, iconText, className) {
@@ -223,7 +276,8 @@ function setupReveal() {
 
 renderCards(focusAreas, focusGrid, "ACT", "topic-card");
 renderCards(fitPoints, fitGrid, "FAP", "fit-card");
-renderCertificates(certificates, certificateGallery);
+renderFeaturedCertificate(featuredCertificate, featuredCertificateContainer);
+renderCertificates(certificateFiles, certificateGallery);
 setupReveal();
 
 if (imageModalClose) {
