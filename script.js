@@ -67,23 +67,23 @@ const certificateFiles = [
   },
   {
     title: "Aplicación e interpretación de la prueba POSIT",
-    thumb: "igual estas/thumbs/Constancias_ Germán-page-00001.jpg",
-    display: "igual estas/display/Constancias_ Germán-page-00001.jpg"
+    thumb: "Constancias German/thumbs/constancia-posit.jpg",
+    display: "Constancias German/display/constancia-posit.jpg"
   },
   {
     title: "Manejo de ansiedad: propuesta de intervención psicosocial",
-    thumb: "igual estas/thumbs/Constancias_ Germán-page-00002.jpg",
-    display: "igual estas/display/Constancias_ Germán-page-00002.jpg"
+    thumb: "Constancias German/thumbs/constancia-manejo-ansiedad.jpg",
+    display: "Constancias German/display/constancia-manejo-ansiedad.jpg"
   },
   {
     title: "Habilidades mentales y reconocimiento de emociones",
-    thumb: "igual estas/thumbs/Constancias_ Germán-page-00003.jpg",
-    display: "igual estas/display/Constancias_ Germán-page-00003.jpg"
+    thumb: "Constancias German/thumbs/constancia-habilidades-emociones.jpg",
+    display: "Constancias German/display/constancia-habilidades-emociones.jpg"
   },
   {
     title: "Violencia en la comunidad y suicidio",
-    thumb: "igual estas/thumbs/Constancias_ Germán-page-00004.jpg",
-    display: "igual estas/display/Constancias_ Germán-page-00004.jpg"
+    thumb: "Constancias German/thumbs/constancia-violencia-suicidio.jpg",
+    display: "Constancias German/display/constancia-violencia-suicidio.jpg"
   },
   {
     title: "Herramientas para el control de la ansiedad",
